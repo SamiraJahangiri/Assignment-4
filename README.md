@@ -7,5 +7,7 @@ Second<- c(0,0,1,1,0,0,1,1,1,1)
 FinalD<- c(0,1,0,1,0,1,0,1,1,1)
 Results<- cbind(Frequency, BP, First, Second, FinalD)
 Results
-boxplot(Results, na.rm=T)
+boxplot(BP~Frequency)
+hist(BP)
+
  
